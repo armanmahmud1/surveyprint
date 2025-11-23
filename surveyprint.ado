@@ -74,7 +74,7 @@ program define surveyprint
 		ren type2 list_name
 		
 		replace list_name = trim(list_name)
-		merge m:1 list_name using `ch_sheet', keep(1 3)
+		qui merge m:1 list_name using `ch_sheet', keep(1 3)
 	
 		tempfile final_ques
 		save `final_ques'
@@ -129,13 +129,10 @@ program define surveyprint
 			export excel using "`forms'_Bangla_`=c(current_date)'.xlsx", cell(A6) sheetmodify keepcellfmt
 		restore
 		
-	
 	}
-		
-	
 end
 	
-surveyprint, quesxl("C:\Users\Arman\Downloads\ODK_Test_BGWE_[CAPI].xlsx")
+
 
 
 
