@@ -1,0 +1,5 @@
+*! version 1.0.0 Arman Mahmud, 23Nov2025 
+d surveyprint: Organize the questionnaire into an Excel format for easy printing.
+d distribution-date: 2025-11-25
+f surveyprint.ado
+f surveyprint.sthlp
