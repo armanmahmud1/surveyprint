@@ -1,5 +1,5 @@
 # surveyprint
-Use this command organizes the questionnaire into an Excel format for convenient printing. It generates two separate files: one with English labels and another with Bangla labels. Once created, you can open either file and simply press Ctrl+P to print directly or save as a PDF.
+Use this command organizes the questionnaire into an Excel format for convenient printing.
 
 ## Descriptions
 The `surveyprint` command organizes the questionnaire into an Excel format for convenient printing. It generates two separate files: one with English labels and another with Bangla labels. Once created, you can open either file and simply press Ctrl+P to print directly or save as a PDF.
