@@ -129,6 +129,23 @@ program define surveyprint
 			export excel using "`forms'_Bangla_`=c(current_date)'.xlsx", cell(A6) sheetmodify keepcellfmt
 		restore
 		
+		** notes
+	*~~~~~~~~~~~~~~~~~~~~~~~*
+
+	n di ""
+	n di ""
+	n di as result "{hline}"
+	n di as result " ✨ File Export Completed! ✨"
+	n di as result "{hline}"
+	n di ""
+	n di as result " Output files have been saved to the current working directory."
+	n di ""
+	di as result `" English Questionnaire: {browse "`forms'_English_`=c(current_date)'.xlsx"}"'
+	di as result `" Bangla Questionnaire: {browse "`forms'_Bangla_`=c(current_date)'.xlsx"}"'
+	n di ""
+	n di as result " You can find the directory path by typing " as input "pwd" as result " in the Command window."
+	n di as result "{hline}"
+		
 	}
 end
 	
