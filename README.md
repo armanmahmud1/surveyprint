@@ -23,7 +23,6 @@ For any issues, report: https://github.com/armanmahmud1/surveyprint/issues
 
 ## Author
 Arman Mahmud </br>
-Email: armanmahmud.du18@gmail.com </br>
 Web: [arman-mahmud.com](https://www.arman-mahmud.com)
 
 
